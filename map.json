@@ -6018,176 +6018,231 @@
       "name": "floorLayer",
       "objects": [
         {
-          "height": 61.6672851518306,
+          "id": 1,
+          "name": "start",
+          "point": true,
+          "visible": true,
+          "x": 512,
+          "y": 350
+        },
+        {
+          "id": 2,
+          "name": "council_desk",
+          "type": "area",
+          "visible": true,
+          "x": 832,
+          "y": 304,
+          "width": 80,
+          "height": 80,
+          "properties": [
+            {
+              "name": "openWebsite",
+              "type": "string",
+              "value": "https://fork-roommate-compound-bryant.trycloudflare.com"
+            },
+            {
+              "name": "openWebsiteTrigger",
+              "type": "string",
+              "value": "onaction"
+            },
+            {
+              "name": "openWebsiteWidth",
+              "type": "int",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "trade_desk",
+          "type": "area",
+          "visible": true,
+          "x": 700,
+          "y": 560,
+          "width": 64,
+          "height": 48,
+          "properties": [
+            {
+              "name": "openWebsite",
+              "type": "string",
+              "value": "https://fork-roommate-compound-bryant.trycloudflare.com"
+            },
+            {
+              "name": "openWebsiteTrigger",
+              "type": "string",
+              "value": "onaction"
+            },
+            {
+              "name": "openWebsiteWidth",
+              "type": "int",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "zone_lgbm",
+          "type": "area",
+          "visible": true,
+          "x": 848,
+          "y": 240,
+          "width": 48,
+          "height": 48,
+          "properties": []
+        },
+        {
+          "id": 11,
+          "name": "zone_lstm",
+          "type": "area",
+          "visible": true,
+          "x": 784,
+          "y": 288,
+          "width": 48,
+          "height": 48,
+          "properties": []
+        },
+        {
           "id": 12,
-          "name": "clockPopup",
-          "rotation": 0,
-          "type": "",
+          "name": "zone_prophet",
+          "type": "area",
           "visible": true,
-          "width": 93.7162209047986,
-          "x": 483.919325398621,
-          "y": 14.0269116471316
+          "x": 912,
+          "y": 288,
+          "width": 48,
+          "height": 48,
+          "properties": []
         },
         {
-          "height": 128,
           "id": 13,
-          "name": "jitsiChillZone",
-          "properties": [
-            {
-              "name": "focusable",
-              "type": "bool",
-              "value": true
-            },
-            {
-              "name": "jitsiRoom",
-              "type": "string",
-              "value": "ChillZone"
-            },
-            {
-              "name": "jitsiTrigger",
-              "type": "string",
-              "value": "onaction"
-            },
-            {
-              "name": "zoom_margin",
-              "type": "float",
-              "value": 1
-            }
-          ],
-          "rotation": 0,
+          "name": "zone_talib",
           "type": "area",
           "visible": true,
-          "width": 192,
-          "x": 32,
-          "y": 96
+          "x": 784,
+          "y": 336,
+          "width": 48,
+          "height": 48,
+          "properties": []
         },
         {
-          "height": 128,
           "id": 14,
-          "name": "trading_zone",
-          "properties": [
-            {
-              "name": "silent",
-              "type": "bool",
-              "value": true
-            },
-            {
-              "name": "openWebsite",
-              "type": "string",
-              "value": "https://fork-roommate-compound-bryant.trycloudflare.com"
-            },
-            {
-              "name": "openWebsiteTrigger",
-              "type": "string",
-              "value": "onaction"
-            },
-            {
-              "name": "openWebsiteWidth",
-              "type": "int",
-              "value": 50
-            }
-          ],
-          "rotation": 0,
+          "name": "zone_mtf",
           "type": "area",
           "visible": true,
-          "width": 224,
-          "x": 640,
-          "y": 544
+          "x": 912,
+          "y": 336,
+          "width": 48,
+          "height": 48,
+          "properties": []
         },
         {
-          "height": 224,
+          "id": 15,
+          "name": "zone_anomaly",
+          "type": "area",
+          "visible": true,
+          "x": 784,
+          "y": 384,
+          "width": 48,
+          "height": 48,
+          "properties": []
+        },
+        {
           "id": 16,
-          "name": "council_zone",
-          "properties": [
-            {
-              "name": "focusable",
-              "type": "bool",
-              "value": true
-            },
-            {
-              "name": "jitsiRoom",
-              "type": "string",
-              "value": "MeetingRoom"
-            },
-            {
-              "name": "jitsiTrigger",
-              "type": "string",
-              "value": "onaction"
-            },
-            {
-              "name": "zoom_margin",
-              "type": "float",
-              "value": 1
-            },
-            {
-              "name": "openWebsite",
-              "type": "string",
-              "value": "https://fork-roommate-compound-bryant.trycloudflare.com"
-            },
-            {
-              "name": "openWebsiteTrigger",
-              "type": "string",
-              "value": "onaction"
-            },
-            {
-              "name": "openWebsiteWidth",
-              "type": "int",
-              "value": 50
-            }
-          ],
-          "rotation": 0,
+          "name": "zone_guard",
           "type": "area",
           "visible": true,
-          "width": 192,
-          "x": 768,
-          "y": 224
+          "x": 912,
+          "y": 384,
+          "width": 48,
+          "height": 48,
+          "properties": []
         },
         {
-          "height": 39.6969696969697,
           "id": 17,
-          "name": "watchdog_zone",
-          "rotation": 0,
+          "name": "zone_capital",
           "type": "area",
           "visible": true,
-          "width": 50.2727272727272,
-          "x": 438.484848484849,
-          "y": 96.3333333333333
+          "x": 848,
+          "y": 416,
+          "width": 48,
+          "height": 48,
+          "properties": []
         },
         {
-          "height": 64,
           "id": 18,
-          "name": "to-conference",
-          "properties": [
-            {
-              "name": "exitUrl",
-              "type": "string",
-              "value": "conference.tmj#from-office"
-            }
-          ],
-          "rotation": 0,
+          "name": "zone_watchdog",
           "type": "area",
           "visible": true,
-          "width": 32,
-          "x": 0,
-          "y": 512
+          "x": 432,
+          "y": 64,
+          "width": 48,
+          "height": 48,
+          "properties": []
         },
         {
-          "height": 32,
           "id": 19,
-          "name": "from-conference",
-          "properties": [
-            {
-              "name": "start",
-              "type": "bool",
-              "value": true
-            }
-          ],
-          "rotation": 0,
+          "name": "zone_macro",
           "type": "area",
           "visible": true,
-          "width": 32,
-          "x": 64,
-          "y": 544
+          "x": 496,
+          "y": 64,
+          "width": 48,
+          "height": 48,
+          "properties": []
+        },
+        {
+          "id": 20,
+          "name": "zone_fetcher",
+          "type": "area",
+          "visible": true,
+          "x": 368,
+          "y": 64,
+          "width": 48,
+          "height": 48,
+          "properties": []
+        },
+        {
+          "id": 21,
+          "name": "zone_bot",
+          "type": "area",
+          "visible": true,
+          "x": 656,
+          "y": 560,
+          "width": 48,
+          "height": 48,
+          "properties": []
+        },
+        {
+          "id": 22,
+          "name": "zone_researcher",
+          "type": "area",
+          "visible": true,
+          "x": 752,
+          "y": 560,
+          "width": 48,
+          "height": 48,
+          "properties": []
+        },
+        {
+          "id": 23,
+          "name": "zone_retrainer",
+          "type": "area",
+          "visible": true,
+          "x": 848,
+          "y": 560,
+          "width": 48,
+          "height": 48,
+          "properties": []
+        },
+        {
+          "id": 24,
+          "name": "zone_line",
+          "type": "area",
+          "visible": true,
+          "x": 112,
+          "y": 144,
+          "width": 48,
+          "height": 48,
+          "properties": []
         }
       ],
       "opacity": 1,
@@ -7559,11 +7614,6 @@
       "name": "mapName",
       "type": "string",
       "value": "Office"
-    },
-    {
-      "name": "script",
-      "type": "string",
-      "value": "src/main.ts"
     },
     {
       "name": "script",
